@@ -1,5 +1,3 @@
-# node_crash
-
 <!-- Start of a Node crash course -->
 
 Node.js is a JavaScript runtime (not a language or framework)
@@ -45,5 +43,13 @@ npm install xxxxx --- install package
 
 
 ============Deploy to Heroku==========
+
 heroku --version [to verify cli installed]
+
 heroku login [logs into heroku]
+
+heroku create [creates the heroku git repo]
+    once this has finished you'll have a https://sheltered-peak-63181.herokuapp.com/
+    link to go to. Go to the deploy tab and copy the heroku git:remote -a sheltered-peak-63181
+
+git push heroku master [pushes to heroku]
